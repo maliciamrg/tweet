@@ -1,5 +1,5 @@
 <?php
-  include param.php
+  include("param.php");
   $twitter_version = '1.0';
   $sign_method = 'HMAC-SHA1';
   $status=$argv[1];
