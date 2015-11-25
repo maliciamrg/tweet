@@ -1,5 +1,6 @@
 <?php
-  include("param.php");
+  include("./../.secret/twitter_access.php");
+  include("./../.secret/twitter_consumer.php");
   $twitter_version = '1.0';
   $sign_method = 'HMAC-SHA1';
   $status=$argv[1];
